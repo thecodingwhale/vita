@@ -1,0 +1,24 @@
+.wrapper {
+  background-color: #0F5E7C;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.title {
+  font: 57px 'Bree Serif', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+.sub {
+  margin: 0px;
+  font-size: 24px;
+}

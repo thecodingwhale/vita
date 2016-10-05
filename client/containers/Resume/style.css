@@ -1,5 +1,12 @@
 @import 'normalize-css/normalize.css';
 
-html {
+body {
+  font: 13px 'Lato', Helvetica, Arial, sans-serif;
+  margin: 0 auto;
   background: #f0f2fa;
+  color: #0F5E7C;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
