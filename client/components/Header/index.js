@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react'
+import base from '../../constants/base.css'
 import style from './style.css'
 // import TodoTextInput from '../TodoTextInput'
 
@@ -28,13 +29,15 @@ class Header extends Component {
     return (
       <div className={style.wrapper}>
         <div className={style.container}>
-          <div className={style.header}>
-            <h1 className={style.title}>
-              Terante, Aldren R.
-            </h1>
-            <p className={style.sub}>
-              Frontend Developer
-            </p>
+          <div className={base.content}>
+            <div className={style.header}>
+              <h1 className={style.title}>
+                Terante, Aldren R.
+              </h1>
+              <div className={style.sub}>
+                Frontend Developer
+              </div>
+            </div>
           </div>
         </div>
       </div>
