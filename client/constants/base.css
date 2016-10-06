@@ -1,0 +1,20 @@
+@value primaryColor from "./colors.css";
+@value primaryFontStyle from "./typography.css";
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.pageTitle {
+  font-family: primaryFontStyle;
+  font-size: responsive 1em 1.4em;
+  color: primaryColor;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
