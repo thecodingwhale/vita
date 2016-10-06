@@ -5,7 +5,7 @@
 
 body {
   font-family: secondaryFontStyle;
-  font-size: responsive 13px 16px;
+  font-size: responsive .8em 1em;
   margin: 0 auto;
   background: #f0f2fa;
   color: primaryColor;
