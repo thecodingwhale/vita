@@ -1,11 +1,15 @@
+@value primaryColor from "../../constants/colors.css";
+@value secondaryFontStyle from "../../constants/typography.css";
+
 @import 'normalize-css/normalize.css';
 
 body {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: secondaryFontStyle;
   font-size: responsive 13px 16px;
   margin: 0 auto;
   background: #f0f2fa;
-  color: #0F5E7C;
+  color: primaryColor;
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;

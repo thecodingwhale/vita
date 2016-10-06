@@ -1,11 +1,12 @@
+@value primaryColor from "../../constants/colors.css";
+@value primaryFontStyle, secondaryFontStyle from "../../constants/typography.css";
 
 .wrapper {
-  background-color: #0F5E7C;
+  background-color: primaryColor;
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+  composes: container from "../../constants/base.css";
 }
 
 .header {
@@ -14,16 +15,17 @@
   text-align: center;
   color: #ffffff;
 }
+
 @media (min-width: 700px) {
   .header {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
   }
 }
 
 .title {
-  font-family: 'Bree Serif', Helvetica, Arial, sans-serif;
-  font-size: responsive 18px 57px;
+  font-family: primaryFontStyle;
+  font-size: responsive 1.4em 2.5em;
   font-weight: 300;
   margin: 0px;
   text-transform: uppercase;
@@ -32,6 +34,8 @@
 
 .sub {
   margin: 0px;
-  font-size: responsive 13px 28px;
+  composes: pageTitle from "../../constants/base.css";
+  font-family: secondaryFontStyle;
+  color: #ffffff;
 }
 
