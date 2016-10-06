@@ -1,24 +1,37 @@
+
 .wrapper {
   background-color: #0F5E7C;
 }
+
 .container {
   max-width: 960px;
   margin: 0 auto;
 }
+
 .header {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
   color: #ffffff;
 }
+@media (min-width: 700px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
 .title {
-  font: 57px 'Bree Serif', Helvetica, Arial, sans-serif;
+  font-family: 'Bree Serif', Helvetica, Arial, sans-serif;
+  font-size: responsive 18px 57px;
   font-weight: 300;
   margin: 0px;
   text-transform: uppercase;
   letter-spacing: .03em;
 }
+
 .sub {
   margin: 0px;
-  font-size: 24px;
+  font-size: responsive 13px 28px;
 }
+

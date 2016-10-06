@@ -1,7 +1,8 @@
 @import 'normalize-css/normalize.css';
 
 body {
-  font: 13px 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: responsive 13px 16px;
   margin: 0 auto;
   background: #f0f2fa;
   color: #0F5E7C;
