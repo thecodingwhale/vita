@@ -1,0 +1,3 @@
+.pageTitle {
+  composes: pageTitle from "../../constants/base.css";
+}

@@ -3,7 +3,7 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import style from './style.css'
 import Header from '../../components/Header'
-import CareerObjective from '../../components/CareerObjective'
+import CareerObjective from './CareerObjective'
 
 class Resume extends Component {
   render() {
