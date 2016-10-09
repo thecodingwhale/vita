@@ -13,7 +13,7 @@ class CareerObjective extends Component {
             <PageTitle>
               Summary
             </PageTitle>
-            <p>
+            <p className={style.lead}>
                 Constantly learning and adopting new things to improve my current knowledge and workflow of building things for web application effectively. Proactively shows interests and try to build/implement in my current development workflow. Willingness to learn other languages to update my current toolset are definitely welcome.
             </p>
         </Content>
