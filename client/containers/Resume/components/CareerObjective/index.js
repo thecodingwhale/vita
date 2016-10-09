@@ -1,9 +1,9 @@
 
 import React, { Component } from 'react'
-import base from '../../../constants/base.css'
+import base from '../../../../constants/base.css'
 import style from './style.css'
-import PageTitle from '../../../components/PageTitle'
-import Content from '../../../components/Content'
+import PageTitle from '../../../../components/PageTitle'
+import Content from '../../../../components/Content'
 
 class CareerObjective extends Component {
   render() {
