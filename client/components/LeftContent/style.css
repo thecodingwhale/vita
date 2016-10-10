@@ -1,0 +1,8 @@
+@value medium as bp-medium from "../../constants/breakpoints.css";
+
+@media bp-medium {
+  .leftContent {
+    float: left;
+    width: 30%;
+  }
+}

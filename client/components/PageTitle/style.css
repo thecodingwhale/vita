@@ -1,3 +1,12 @@
 .pageTitle {
   composes: pageTitle from "../../constants/base.css";
 }
+
+.small {
+  composes: pageTitle;
+  font-size: responsive 1.1em 1.3em;
+}
+
+.noMargin {
+    margin: 0px;
+}

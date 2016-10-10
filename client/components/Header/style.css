@@ -12,7 +12,6 @@
 .header {
   padding-top: 15px;
   padding-bottom: 15px;
-  text-align: center;
   color: #ffffff;
   transition: padding 1000ms ease-out-circ;
 }
