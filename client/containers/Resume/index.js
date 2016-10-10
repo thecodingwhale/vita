@@ -4,13 +4,17 @@ import { connect } from 'react-redux'
 import style from './style.css'
 import Header from '../../components/Header'
 import CareerObjective from './components/CareerObjective'
+import Employment from './components/Employment'
 
 class Resume extends Component {
   render() {
     return (
       <div>
         <Header />
-        <CareerObjective />
+        <div className={style.container}>
+          <CareerObjective />
+          <Employment />
+        </div>
       </div>
     )
   }

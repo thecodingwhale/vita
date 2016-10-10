@@ -1,10 +1,5 @@
 @value medium as bp-medium from "../../../../constants/breakpoints.css";
 
-.container {
-  composes: container from "../../../../constants/base.css";
-  text-align: center;
-}
-
 .pageTitle {
   composes: pageTitle from "../../../../constants/base.css";
 }

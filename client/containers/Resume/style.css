@@ -3,6 +3,10 @@
 
 @import 'normalize-css/normalize.css';
 
+.container {
+  composes: container from "../../constants/base.css";
+}
+
 body {
   font-family: secondaryFontStyle;
   font-size: responsive .8em 1.1em;
