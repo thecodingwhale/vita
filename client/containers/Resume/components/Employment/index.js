@@ -7,6 +7,7 @@ import Layout from '../../../../components/Layout'
 import LeftContent from '../../../../components/LeftContent'
 import MainContent from '../../../../components/MainContent'
 import ListView from '../../../../components/ListView'
+import Pill from '../../../../components/Pill'
 import content from './content'
 
 class Employment extends Component {
@@ -25,13 +26,20 @@ class Employment extends Component {
                     sub={data.position}
                     description={data.date}
                   />
+                  {data.tags.map((tag, key)=> {
+                    return (
+                      <Pill key={key}>
+                        {tag}
+                      </Pill>
+                    )
+                  })}
                 </LeftContent>
                 <MainContent>
                   <ListView>
-                    {data.experience.map((list, listKey)=> {
+                    {data.experiences.map((experience, listKey)=> {
                       return (
                         <li key={listKey}>
-                          {list}
+                          {experience}
                         </li>
                       )
                     })}
