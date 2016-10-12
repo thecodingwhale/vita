@@ -1,0 +1,12 @@
+@value primaryColor from "../../constants/colors.css";
+
+.pill {
+  padding: 3px 8px;
+  display: inline-block;
+  font-size: .7em;
+  border-radius: 5px;
+  color: primaryColor;
+  border: 1px solid primaryColor;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
