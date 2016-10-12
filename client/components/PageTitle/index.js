@@ -5,12 +5,12 @@ import style from './style.css'
 
 class PageTitle extends Component {
   render() {
-    let className = cx(style.pageTitle, {
+    let classNames = cx(style.pageTitle, {
       [style.small]: (this.props.size == "small") ? true : false,
       [style.noMargin]: this.props.noMargin,
     });
     return (
-      <div className={className}>
+      <div className={classNames}>
         {this.props.children}
       </div>
     )
