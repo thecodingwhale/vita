@@ -1,3 +1,11 @@
 .titleDescription {
     margin-bottom: 10px;
 }
+
+.sub {
+  margin-bottom: 5px;
+}
+
+.description {
+  line-height: 1.1;
+}

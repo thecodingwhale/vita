@@ -1,3 +1,5 @@
 .layout {
   margin-bottom: 20px;
+  clear: both;
+  overflow: hidden;
 }
