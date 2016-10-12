@@ -5,6 +5,7 @@ import style from './style.css'
 import Header from '../../components/Header'
 import CareerObjective from './components/CareerObjective'
 import Employment from './components/Employment'
+import Education from './components/Education'
 
 class Resume extends Component {
   render() {
@@ -14,6 +15,7 @@ class Resume extends Component {
         <div className={style.container}>
           <CareerObjective />
           <Employment />
+          <Education />
         </div>
       </div>
     )
