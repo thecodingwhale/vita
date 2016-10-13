@@ -1,0 +1,12 @@
+@value medium as bp-medium from "../../../../constants/breakpoints.css";
+
+.pageTitle {
+  composes: pageTitle from "../../../../constants/base.css";
+}
+
+@media bp-medium {
+  .lead {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+}
