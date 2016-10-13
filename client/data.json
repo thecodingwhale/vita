@@ -141,5 +141,17 @@
         "Maintains all software and company websites."
       ]
     }
+  ],
+  "education": [
+    {
+      "course": "Bachelor of Science major in Computer Science",
+      "school": "University of Perpetual Help System GMA Cavite",
+      "date": "2007 - 2011"
+    },
+    {
+      "course": "Civil Engeering Technology",
+      "school": "Technological University of the Philippines, Cavite Campus",
+      "date": "2006 - 2007"
+    }
   ]
 }
