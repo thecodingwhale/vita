@@ -13,7 +13,7 @@
       "summaries": [
         "A clean, flat and minimal design approach for user interfaces.",
         "Creating user stories. wireframes, mockups and prototyping.",
-        "Task automation and automation for smooth frontend workflow."
+        "Task automation and automation for smooth frontend workflow.",
         "Cross browser and unit testing.",
         "ES6, modular javscript and object oriented implementation.",
         "Deploy script and build automation."
@@ -25,7 +25,7 @@
       "summaries": [
         "Understand the concepts of SOLID and OOP principles.",
         "Knowledgable working with RESTful APIs and JSON.",
-        "Understand concepts of BDD and TDD.",
+        "Understand concepts of BDD and TDD."
       ]
     }
   ],
@@ -76,7 +76,7 @@
         "vim",
         "git",
         "gitlab",
-        "bash",
+        "bash"
       ]
     },
     {
@@ -88,7 +88,7 @@
         "Conducts deep cross browser testing and site optimization.",
         "Create data visualization usign different kinds of chart libraries.",
         "Prepares documentation for different projects can be work/tranfer smoothly.",
-        "Conducts interview for new applicants for the same position.",
+        "Conducts interview for new applicants for the same position."
       ],
       "tags": [
         "photoshop",
@@ -112,7 +112,7 @@
         "create layouts and wireframes for new and existing websites in Photoshop.",
         "Convert PSD to HTML/CSS with js/jQuery for user interaction with cross browser compatibility and SEO standard.",
         "Knowledgeable in responsive/mobile ready using frontend frameworks/css like twitter bootstrap with less and zurb foundation using sass/compass.",
-        "Convert html/css template to wordpress themes.",
+        "Convert html/css template to wordpress themes."
       ],
       "tags": [
         "photoshop",
@@ -121,8 +121,8 @@
         "zurb foundation",
         "compass",
         "less",
-        "scss",
-      ],
+        "scss"
+      ]
     },
     {
       "companyName": "Shinkozan",
@@ -132,13 +132,13 @@
         "photoshop",
         "wordpress",
         "networking",
-        "server management",
+        "server management"
       ],
       "experiences": [
         "Responsible for diagnosing and resolving hardware, software and end user problems.",
         "Deploys hardware, server backups, evaluating new software and security risk.",
         "Redesigned and developed existing website using Wordpress.",
-        "Maintains all software and company websites.",
+        "Maintains all software and company websites."
       ]
     }
   ]
