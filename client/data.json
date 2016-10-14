@@ -4,7 +4,7 @@
     "position": "Frontend Developer"
   },
   "careerObjective": {
-    "content": "Constantly learning and adopting new things to improve my current knowledge and workflow of building things for web application effectively. Proactively shows interests and try to build/implement in my current development workflow. Willingness to learn other languages to update my current toolset are definitely welcome."
+    "content": "Constantly learning and adopting best practices for improving my knowledge in building web application effectively. Pro-actively shows interests in new technologies and try to integrate to my work-flow."
   },
   "development": [
     {
@@ -152,6 +152,22 @@
       "course": "Civil Engeering Technology",
       "school": "Technological University of the Philippines, Cavite Campus",
       "date": "2006 - 2007"
+    }
+  ],
+  "contact": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/thecodingwhale",
+      "blank": true
+    },
+    {
+      "type": "Linkedin",
+      "link": "https://ph.linkedin.com/in/aldren-terante-82685670",
+      "blank": true
+    },
+    {
+      "type": "Email",
+      "link": "mailto:aldren.terante@gmail.com"
     }
   ]
 }

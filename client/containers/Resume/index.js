@@ -13,6 +13,7 @@ import LeftContent from '../../components/LeftContent'
 import MainContent from '../../components/MainContent'
 import ListView from '../../components/ListView'
 import Pill from '../../components/Pill'
+import Link from '../../components/Link'
 
 class Resume extends Component {
   componentWillMount() {
@@ -28,7 +29,7 @@ class Resume extends Component {
       )
     }
     else {
-      const { header, careerObjective, development, employment, education } = contents
+      const { header, careerObjective, development, employment, education, contact } = contents
       return (
         <div>
           <Header
@@ -110,6 +111,23 @@ class Resume extends Component {
                   />
                 )
               })}
+            </Section>
+            <Section title="Contact">
+              <ListView clean>
+                {contact.map((list, id) => {
+                  return (
+                    <li key={id}>
+                      {list.type}:<br />
+                      <Link
+                        link={list.link}
+                        title={list.link}
+                        blank={list.blank}
+                        mailTo={list.mailTo}
+                      />
+                    </li>
+                  )
+                })}
+              </ListView>
             </Section>
           </div>
         </div>
