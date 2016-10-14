@@ -21,6 +21,13 @@ module.exports = {
     filename: 'bundle.js',
   },
   module: {
+    preLoaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader'
+      },
+    ],
     loaders: [
       {
         test: /\.html$/,
@@ -48,6 +55,11 @@ module.exports = {
           'babel-loader'
         ]
       },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loaders: ['babel-loader', 'eslint-loader']
+      },
     ],
   },
   resolve: {
@@ -67,5 +79,8 @@ module.exports = {
   devServer: {
     contentBase: './client',
     hot: true
+  },
+  eslint: {
+    configFile: './.eslint'
   }
 }
