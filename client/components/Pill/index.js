@@ -1,15 +1,14 @@
+/* eslint-disable arrow-body-style */
 
-import React, { Component } from 'react'
-import style from './style.css'
+import React from 'react';
+import style from './style.css';
 
-class Pill extends Component {
-  render() {
-    return (
-      <span className={style.pill}>
-        {this.props.children}
-      </span>
-    )
-  }
-}
+const Pill = (props) => {
+  return (
+    <span className={style.pill}>
+      {props.children}
+    </span>
+  );
+};
 
-export default Pill
+export default Pill;

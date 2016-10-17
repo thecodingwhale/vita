@@ -1,24 +1,20 @@
 
-import React, { Component } from 'react'
-import style from './style.css'
+import React from 'react';
+import style from './style.css';
 
-class Link extends Component {
-  render() {
-    if (this.props.blank == true) {
-      return (
-        <a className={style.link} href={this.props.link} target="_blank">
-          {this.props.title}
-        </a>
-      )
-    }
-    else {
-      return (
-        <a className={style.link} href={this.props.link}>
-          {this.props.title}
-        </a>
-      )
-    }
+const Link = (props) => {
+  if (props.blank === true) {
+    return (
+      <a className={style.link} href={props.link} target="_blank" rel="noopener noreferrer">
+        {props.children}
+      </a>
+    );
   }
-}
+  return (
+    <a className={style.link} href={props.link}>
+      {props.children}
+    </a>
+  );
+};
 
-export default Link
+export default Link;

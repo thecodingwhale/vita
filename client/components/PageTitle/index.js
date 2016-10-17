@@ -1,20 +1,18 @@
 
-import React, { Component } from 'react'
-import cx from "classnames"
-import style from './style.css'
+import React from 'react';
+import cx from 'classnames';
+import style from './style.css';
 
-class PageTitle extends Component {
-  render() {
-    let classNames = cx(style.pageTitle, {
-      [style.small]: (this.props.size == "small") ? true : false,
-      [style.noMargin]: this.props.noMargin,
-    });
-    return (
-      <div className={classNames}>
-        {this.props.children}
-      </div>
-    )
-  }
-}
+const PageTitle = (props) => {
+  const classNames = cx(style.pageTitle, {
+    [style.small]: (props.size === 'small'),
+    [style.noMargin]: props.noMargin,
+  });
+  return (
+    <div className={classNames}>
+      {props.children}
+    </div>
+  );
+};
 
-export default PageTitle
+export default PageTitle;

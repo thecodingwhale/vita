@@ -1,15 +1,14 @@
+/* eslint-disable arrow-body-style */
 
-import React, { Component } from 'react'
-import style from './style.css'
+import React from 'react';
+import style from './style.css';
 
-class LeadContent extends Component {
-  render() {
-    return (
-      <div className={style.lead}>
-        {this.props.children}
-      </div>
-    )
-  }
-}
+const LeadContent = (props) => {
+  return (
+    <div className={style.lead}>
+      {props.children}
+    </div>
+  );
+};
 
-export default LeadContent
+export default LeadContent;

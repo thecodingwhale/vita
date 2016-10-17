@@ -1,16 +1,15 @@
 
-import React, { Component } from 'react'
-import PageTitle from '../PageTitle'
-import style from './style.css'
+import React, { Component } from 'react';
+import PageTitle from '../PageTitle';
+import style from './style.css';
 
 class TitleDescription extends Component {
   renderSub() {
-    if (typeof this.props.sub !== "undefined" || this.props.sub != "") {
+    if (typeof this.props.sub !== 'undefined' || this.props.sub !== '') {
       return (
         <div className={style.sub}>{this.props.sub}</div>
-      )
+      );
     }
-
     return '';
   }
   render() {
@@ -29,8 +28,8 @@ class TitleDescription extends Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default TitleDescription
+export default TitleDescription;

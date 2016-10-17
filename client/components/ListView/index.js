@@ -1,20 +1,18 @@
 
-import React, { Component } from 'react'
-import style from './style.css'
-import cx from "classnames"
+import React from 'react';
+import cx from 'classnames';
+import style from './style.css';
 
-class ListView extends Component {
-  render() {
-    let className = cx(style.listView, {
-      [style.clean]: this.props.clean,
-      [style.inline]: this.props.inline
-    });
-    return (
-      <ul className={className}>
-        {this.props.children}
-      </ul>
-    )
-  }
-}
+const ListView = (props) => {
+  const className = cx(style.listView, {
+    [style.clean]: props.clean,
+    [style.inline]: props.inline,
+  });
+  return (
+    <ul className={className}>
+      {props.children}
+    </ul>
+  );
+};
 
-export default ListView
+export default ListView;
