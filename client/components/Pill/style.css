@@ -1,12 +1,12 @@
-@value primaryColor from "../../constants/colors.css";
+@value accentColor from "../../constants/colors.css";
 
 .pill {
   padding: 3px 8px;
   display: inline-block;
   font-size: .7em;
   border-radius: 5px;
-  color: #d02e59;
-  border: 1px solid #d02e59;
+  color: accentColor;
+  border: 1px solid accentColor;
   margin-right: 5px;
   margin-bottom: 5px;
 }

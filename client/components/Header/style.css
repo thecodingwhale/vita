@@ -5,15 +5,10 @@
   background-color: primaryColor;
 }
 
-.container {
-  composes: container from "../../constants/base.css";
-}
-
 .header {
   padding-top: 15px;
   padding-bottom: 15px;
   color: #ffffff;
-  transition: padding 1000ms ease-out-circ;
 }
 
 @media (min-width: 700px) {

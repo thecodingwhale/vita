@@ -1,5 +1,6 @@
 /* eslint-disable arrow-body-style */
 /* eslint-disable arrow-spacing */
+/* eslint-disable no-unused-vars */
 
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
@@ -7,6 +8,7 @@ import { connect } from 'react-redux';
 import * as ContentActions from '../../actions/contents';
 import style from './style.css';
 import Header from '../../components/Header';
+import Container from '../../components/Container';
 import Section from './components/Section';
 import LeadContent from '../../components/LeadContent';
 import TitleDescription from '../../components/TitleDescription';
@@ -37,7 +39,7 @@ class Resume extends Component {
           name={header.name}
           position={header.position}
         />
-        <div className={style.container}>
+        <Container>
           <Section title="Career Objective">
             <LeadContent>
               {careerObjective.content}
@@ -131,7 +133,7 @@ class Resume extends Component {
               })}
             </ListView>
           </Section>
-        </div>
+        </Container>
       </div>
     );
   }

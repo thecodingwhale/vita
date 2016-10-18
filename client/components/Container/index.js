@@ -3,12 +3,12 @@
 import React from 'react';
 import style from './style.css';
 
-const Content = (props) => {
+const Container = (props) => {
   return (
-    <div className={style.content}>
+    <div className={style.container}>
       {props.children}
     </div>
   );
 };
 
-export default Content;
+export default Container;

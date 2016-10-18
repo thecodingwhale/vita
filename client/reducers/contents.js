@@ -1,8 +1,8 @@
 
 import { handleActions } from 'redux-actions';
+import { FETCH_CONTENT } from '../constants/actions';
 
 const initialState = [];
-const FETCH_CONTENT = 'fetch content';
 
 export default handleActions({
   [FETCH_CONTENT](state, action) {

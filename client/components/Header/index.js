@@ -3,11 +3,12 @@
 import React from 'react';
 import base from '../../constants/base.css';
 import style from './style.css';
+import Container from '../Container';
 
 const Header = (props) => {
   return (
     <div className={style.wrapper}>
-      <div className={style.container}>
+      <Container>
         <div className={base.content}>
           <div className={style.header}>
             <h1 className={style.title}>
@@ -18,7 +19,7 @@ const Header = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };
