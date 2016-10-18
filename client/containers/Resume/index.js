@@ -1,3 +1,5 @@
+/* eslint-disable arrow-body-style */
+/* eslint-disable arrow-spacing */
 
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
@@ -119,10 +121,11 @@ class Resume extends Component {
                     {list.type}:<br />
                     <Link
                       link={list.link}
-                      title={list.link}
                       blank={list.blank}
                       mailTo={list.mailTo}
-                    />
+                    >
+                      {list.link}
+                    </Link>
                   </li>
                 );
               })}

@@ -1,10 +1,11 @@
 
-import { handleActions } from 'redux-actions'
+import { handleActions } from 'redux-actions';
 
-const initialState = []
+const initialState = [];
+const FETCH_CONTENT = 'fetch content';
 
 export default handleActions({
-  'fetch content' (state, action) {
-    return action.payload
-  }
-}, initialState)
+  [FETCH_CONTENT](state, action) {
+    return action.payload;
+  },
+}, initialState);
