@@ -4,28 +4,28 @@
     "position": "Frontend Developer"
   },
   "careerObjective": {
-    "content": "Constantly learning and adopting best practices for improving my knowledge in building web application effectively. Pro-actively shows interests in new technologies and try to integrate to my work-flow."
+    "content": "Actively studying and adopting things that can help to maximize and widen my current knowledge in building applications. Integrating tried and tested tools for improving my current workflow to be more efficient. Creating open source projects for helping/giving back to the community as well."
   },
   "development": [
     {
       "title": "Frontend",
-      "description": "I considered myself dealing more with designs, colors and converting it to a great user experience.",
+      "description": "I find myself dealing more with the users aesthetic needs ranging from designing user interface/experience to building effective web applications. Right now, I'm love building frontend components with React <3.",
       "summaries": [
+        "Building frontend and single page apps with the help of React + Redux.",
+        "Adding unit tests while implementing test driven development (TDD).",
+        "Adding task automation and test integration for smooth frontend workflow",
+        "Creating scripts for deploying and building automation for different environment.",
         "A clean, flat and minimal design approach for user interfaces.",
-        "Creating user stories. wireframes, mockups and prototyping.",
-        "Task automation and automation for smooth frontend workflow.",
-        "Cross browser and unit testing.",
-        "ES6, modular javscript and object oriented implementation.",
-        "Deploy script and build automation."
+        "Creating user stories, wireframes, mockups and prototyping."
       ]
     },
     {
       "title": "Backend",
-      "description": "Working with backend services, bulk JSON dataset, different RESTful APIs and more.",
+      "description": "Have a good knowledge in working with different RESTful APIs, knows how to build small to intermediate backend services written in PHP using Laravel/Lumen framework and more.",
       "summaries": [
-        "Understand the concepts of SOLID and OOP principles.",
-        "Knowledgable working with RESTful APIs and JSON.",
-        "Understand concepts of BDD and TDD."
+        "Have a good understanding of the concepts of SOLID, DRY and OOP principles.",
+        "Understand the concepts and have fairly experience of implementing unit testing, TDD and BDD for backend.",
+        "Actively shows interests in design patterns and software architecture by creating pet projects."
       ]
     }
   ],
@@ -35,15 +35,18 @@
       "position": "Frontend Developer & UI/UX Designer",
       "date": "September 2014 - Present",
       "experiences": [
-        "Involved in research and design for new tech stack to be use for new and current internal apps.",
-        "Reimplement most use pages by replacing old legacy code to newly redesign UI/UX.",
-        "Involved in development of internal dashboard for managing SalPay users.",
-        "Add deploy script for frontend build automation for effecient deployments.",
-        "Implement new style kit to be use with the new modular frontend/backend templating.",
-        "Setup the new templating to be use for both frontend/backend.",
-        "Involved in planning and design the UI/UX of the current Salarium \"Sal Clock In\" Andriod App",
-        "Created pdf template service for generating payslip in pdf format",
-        "Mostly involved in planning and designing for new features to be implemented."
+        "Currently collaborating with the team in converting the legacy app to a separate Frontend (SPA) using React + Redux.",
+        "Help on creating small and unit tested components build in React required for building Salarium User Interface Kit V3.",
+        "Closing working with the product team for helping/building specs for UI/UX.",
+        "Help in creating a SPA dashboard build in React + Redux and consuming internal API for specific clients.",
+        "Created a dashboard build in Laravel/ES6 (also use internal API) for managing/monitoring SalPay users for support.",
+        "Adding new features for in legacy apps and using RequireJS for clean modular approach.",
+        "Involved in research and design for implementing new tech stack to be use for new and current internal apps.",
+        "Add deployment script and build automation for the Front End using GruntJS for different environments.",
+        "Created PDF template service written in PHP for generating payslip in PDF format.",
+        "Re-implement most use pages by replacing old legacy code to newly redesign UI/UX.",
+        "Setup the new templating to be use for both Frontend/Backend.",
+        "Involved in planning and design the UI/UX of the current Salarium \"Sal Clock In\" andriod app."
       ],
       "tags": [
         "react",
