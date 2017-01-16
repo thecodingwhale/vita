@@ -49,23 +49,19 @@ class Resume extends Component {
             {(development.map((dev, id) => {
               return (
                 <Layout key={id}>
-                  <LeftContent>
-                    <TitleDescription
-                      title={dev.title}
-                      sub={dev.description}
-                    />
-                  </LeftContent>
-                  <MainContent>
-                    <ListView>
-                      {(dev.summaries.map((summary, summaryId) => {
-                        return (
-                          <li key={summaryId}>
-                            {summary}
-                          </li>
-                        );
-                      }))}
-                    </ListView>
-                  </MainContent>
+                  <TitleDescription
+                    title={dev.title}
+                    sub={dev.description}
+                  />
+                  <ListView>
+                    {(dev.summaries.map((summary, summaryId) => {
+                      return (
+                        <li key={summaryId}>
+                          {summary}
+                        </li>
+                      );
+                    }))}
+                  </ListView>
                 </Layout>
               );
             }))}
@@ -74,12 +70,12 @@ class Resume extends Component {
             {employment.map((data, id) => {
               return (
                 <Layout key={id}>
+                  <TitleDescription
+                    title={data.companyName}
+                    sub={data.position}
+                    description={data.date}
+                  />
                   <LeftContent>
-                    <TitleDescription
-                      title={data.companyName}
-                      sub={data.position}
-                      description={data.date}
-                    />
                     {data.tags.map((tag, key)=> {
                       return (
                         <Pill key={key}>
