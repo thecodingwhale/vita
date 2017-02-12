@@ -171,6 +171,10 @@
     {
       "type": "Email",
       "link": "mailto:aldren.terante@gmail.com"
+    },
+    {
+      "type": "Contact Number",
+      "link": "09293399610"
     }
   ]
 }
