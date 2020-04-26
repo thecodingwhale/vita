@@ -1,7 +1,7 @@
 {
   "header": {
-    "name" : "Terante, Aldren R.",
-    "position": "Frontend Developer"
+    "name": "Terante, Aldren R.",
+    "position": "Senior FullStack Developer"
   },
   "careerObjective": {
     "content": "Actively studying and adopting things that can help to maximize and widen my current knowledge in building applications. Integrating tried and tested tools for improving my current workflow to be more efficient. Creating open source projects for helping/giving back to the community as well."
@@ -9,19 +9,19 @@
   "development": [
     {
       "title": "Frontend",
-      "description": "I find myself dealing more with the users aesthetic needs ranging from designing user interface/experience to building effective web applications. Right now, I'm love building frontend components with React <3.",
+      "description": "I find myself dealing more with the users aesthetic needs ranging from designing user interface/experience to building effective web applications. My current default tech stack are using nextjs paired with redux-saga and redux-toolkit. Right now I'm learning to integrate typescript to improve my overall workflow.",
       "summaries": [
-        "Building frontend and single page apps with the help of React + Redux.",
-        "Adding unit tests while implementing test driven development (TDD).",
-        "Adding task automation and test integration for smooth frontend workflow",
-        "Creating scripts for deploying and building automation for different environment.",
+        "Use nextjs + redux-saga with redux-toolkit along with react-testing library",
+        "Learning to use typescript to improve my coding skill and overall programming",
+        "Always learning new things and try looking ways to contribute in open source project",
+        "Serious started to create blogs to share my learnings along the way",
         "A clean, flat and minimal design approach for user interfaces.",
         "Creating user stories, wireframes, mockups and prototyping."
       ]
     },
     {
       "title": "Backend",
-      "description": "Have a good knowledge in working with different RESTful APIs, knows how to build small to intermediate backend services written in PHP using Laravel/Lumen framework and more.",
+      "description": "Have a good knowledge in working with different RESTful APIs. Right now I'm using koajs + moongose db for creating api and also have working implementation of GraphQL for Shopify API. Also Knows how to build small to intermediate backend services written in PHP using Laravel/Lumen framework. ",
       "summaries": [
         "Have a good understanding of the concepts of SOLID, DRY and OOP principles.",
         "Understand the concepts and have fairly experience of implementing unit testing, TDD and BDD for backend.",
@@ -31,9 +31,69 @@
   ],
   "employment": [
     {
+      "companyName": "Inscoder",
+      "position": "Senior FullStack Developer",
+      "date": "Sept 2019 - Preset",
+      "experiences": [
+        "Create custom dashboard with integration Shopify REST and GraphQL API.",
+        "Use nextjs + redux-saga for the frontend and koajs+mongoose in the backend",
+        "Setup unit testing with react testing library",
+        "Update shopify themes using theme-kit"
+      ],
+      "tags": [
+        "react",
+        "redux-saga",
+        "formik",
+        "nextjs",
+        "graphql",
+        "react-testing-library",
+        "koajs",
+        "moongose",
+        "heroku",
+        "papertrail",
+        "shopify",
+        "theme-kit"
+      ]
+    },
+    {
+      "companyName": "Diversity Offshore Staffing Solutions",
+      "position": "Senior FullStack Developer",
+      "date": "April 2019 - July 2019",
+      "experiences": [
+        "Help to start the initial MVP for helping senior citizen in Australia.",
+        "Use react-native to build WebRTC video call",
+        "Add new features in existing hrs and payroll System.",
+        "Setup unit testing with laravel framework."
+      ],
+      "tags": ["react-native", "redux", "laravel", "mysql", "unit-testing"]
+    },
+    {
+      "companyName": "ALTUS Digital Capital",
+      "position": "Senior Frontend Developer",
+      "date": "April 2017 - January 2019",
+      "experiences": [
+        "Updated the old gulp setup to use the updated webpack-dev-server/webpack-stream/babel for faster local development.",
+        "Make the build script more efficient for faster production build.",
+        "Had a chance to study Go as part of reviewing the current authentication layer of the app",
+        "Closely working with product team for designing/building specs for UI/UX.",
+        "Helps the team leader for conducting interview for new applications for the same position."
+      ],
+      "tags": [
+        "go",
+        "react",
+        "redux",
+        "webpack",
+        "twitter bootstrap",
+        "jQuery",
+        "scss",
+        "gulp",
+        "mac"
+      ]
+    },
+    {
       "companyName": "Salarium",
       "position": "Frontend Developer & UI/UX Designer",
-      "date": "September 2014 - Present",
+      "date": "September 2014 - April 2017",
       "experiences": [
         "Currently collaborating with the team in converting the legacy app to a separate Frontend (SPA) using React + Redux.",
         "Help on creating small and unit tested components build in React required for building Salarium User Interface Kit V3.",
@@ -131,12 +191,7 @@
       "companyName": "Shinkozan",
       "position": "IT Support & Web Developer",
       "date": "April 2011 - February 2012",
-      "tags": [
-        "photoshop",
-        "wordpress",
-        "networking",
-        "server management"
-      ],
+      "tags": ["photoshop", "wordpress", "networking", "server management"],
       "experiences": [
         "Responsible for diagnosing and resolving hardware, software and end user problems.",
         "Deploys hardware, server backups, evaluating new software and security risk.",
@@ -159,6 +214,11 @@
   ],
   "contact": [
     {
+      "type": "Personal",
+      "link": "https://thecodingwhale.com",
+      "blank": true
+    },
+    {
       "type": "GitHub",
       "link": "https://github.com/thecodingwhale",
       "blank": true
@@ -170,11 +230,11 @@
     },
     {
       "type": "Email",
-      "link": "mailto:aldren.terante@gmail.com"
+      "link": "aldren.terante@gmail.com"
     },
     {
       "type": "Contact Number",
-      "link": "09293399610"
+      "link": "09953016673"
     }
   ]
 }
